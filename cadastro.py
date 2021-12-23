@@ -34,7 +34,7 @@ if estado_civil not in est:
         estado_civil = input('Estado civil: ')
 
 escolha = input(f'\nParabéns senhor(a) {nome} o seu cadastro foi realizado com sucesso. Se o senhor quiser '
-                f' visualizar o seu cadastro pressione a tecla c, se quiser alterar seu cadastro \npressione a tecla a. Se'
+                f' visualizar o seu cadastro pressione a tecla c, se quiser alterar seu cadastro pressione a tecla a. Se'
                 f' não quiser alterar nada pressione qualquer outra tecla: ')
 if escolha == "c":
     print(f'\nO seu cadastro é:\nNome: {nome}\nIdade: {idade}\nSalário: {salario}\nSexo: {sexo}\nEstado civil: '
@@ -86,7 +86,7 @@ elif escolha == "a":
                 print('Estado civil inválido.')
                 estado_civil = input('Estado civil: ')
         escolha = input(f'\nParabéns senhor(a) {nome} o seu cadastro foi alterado com sucesso. Se o senhor quiser '
-                f' visualizar o seu cadastro pressione a tecla c, se quiser alterar seu cadastro \npressione a tecla a. Se'
+                f' visualizar o seu cadastro pressione a tecla c, se quiser alterar seu cadastro pressione a tecla a. Se'
                 f' não quiser alterar nada pressione qualquer outra tecla: ')
         if escolha == "c":
             print(f'\nO seu cadastro é:\nNome: {nome}\nIdade: {idade}\nSalário: {salario}\nSexo: {sexo}\nEstado civil: '
